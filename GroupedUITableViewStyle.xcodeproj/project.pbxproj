@@ -20,7 +20,7 @@
 		CE846C8516BAF13700020B85 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE846C8316BAF13700020B85 /* ViewController_iPhone.xib */; };
 		CE846C8816BAF13700020B85 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE846C8616BAF13700020B85 /* ViewController_iPad.xib */; };
 		CE846C9016BAF5CF00020B85 /* HossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE846C8F16BAF5CF00020B85 /* HossViewController.m */; };
-		CE846C9216BAF70600020B85 /* HossLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE846C9116BAF70600020B85 /* HossLogin.xib */; };
+		CE846C9216BAF70600020B85 /* HossViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE846C9116BAF70600020B85 /* HossViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,7 @@
 		CE846C8716BAF13700020B85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		CE846C8E16BAF5CF00020B85 /* HossViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HossViewController.h; sourceTree = "<group>"; };
 		CE846C8F16BAF5CF00020B85 /* HossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HossViewController.m; sourceTree = "<group>"; };
-		CE846C9116BAF70600020B85 /* HossLogin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HossLogin.xib; sourceTree = "<group>"; };
+		CE846C9116BAF70600020B85 /* HossViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HossViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 				CE846C8616BAF13700020B85 /* ViewController_iPad.xib */,
 				CE846C8E16BAF5CF00020B85 /* HossViewController.h */,
 				CE846C8F16BAF5CF00020B85 /* HossViewController.m */,
-				CE846C9116BAF70600020B85 /* HossLogin.xib */,
+				CE846C9116BAF70600020B85 /* HossViewController.xib */,
 				CE846C6F16BAF13700020B85 /* Supporting Files */,
 			);
 			path = GroupedUITableViewStyle;
@@ -175,7 +175,7 @@
 				CE846C7F16BAF13700020B85 /* Default-568h@2x.png in Resources */,
 				CE846C8516BAF13700020B85 /* ViewController_iPhone.xib in Resources */,
 				CE846C8816BAF13700020B85 /* ViewController_iPad.xib in Resources */,
-				CE846C9216BAF70600020B85 /* HossLogin.xib in Resources */,
+				CE846C9216BAF70600020B85 /* HossViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +313,7 @@
 				CE846C8D16BAF13700020B85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

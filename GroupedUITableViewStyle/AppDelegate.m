@@ -22,7 +22,7 @@
     }
     */
     
-    self.viewController = [[[HossViewController alloc] initWithNibName:@"HossLogin" bundle:nil] autorelease];
+    self.viewController = [[[HossViewController alloc] initWithNibName:@"HossViewController" bundle:nil] autorelease];
     
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
