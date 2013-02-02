@@ -16,9 +16,6 @@
 		CE846C7B16BAF13700020B85 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CE846C7A16BAF13700020B85 /* Default.png */; };
 		CE846C7D16BAF13700020B85 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE846C7C16BAF13700020B85 /* Default@2x.png */; };
 		CE846C7F16BAF13700020B85 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE846C7E16BAF13700020B85 /* Default-568h@2x.png */; };
-		CE846C8216BAF13700020B85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE846C8116BAF13700020B85 /* ViewController.m */; };
-		CE846C8516BAF13700020B85 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE846C8316BAF13700020B85 /* ViewController_iPhone.xib */; };
-		CE846C8816BAF13700020B85 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE846C8616BAF13700020B85 /* ViewController_iPad.xib */; };
 		CE846C9016BAF5CF00020B85 /* HossViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE846C8F16BAF5CF00020B85 /* HossViewController.m */; };
 		CE846C9216BAF70600020B85 /* HossViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE846C9116BAF70600020B85 /* HossViewController.xib */; };
 /* End PBXBuildFile section */
@@ -37,10 +34,6 @@
 		CE846C7A16BAF13700020B85 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		CE846C7C16BAF13700020B85 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		CE846C7E16BAF13700020B85 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		CE846C8016BAF13700020B85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CE846C8116BAF13700020B85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		CE846C8416BAF13700020B85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		CE846C8716BAF13700020B85 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		CE846C8E16BAF5CF00020B85 /* HossViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HossViewController.h; sourceTree = "<group>"; };
 		CE846C8F16BAF5CF00020B85 /* HossViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HossViewController.m; sourceTree = "<group>"; };
 		CE846C9116BAF70600020B85 /* HossViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HossViewController.xib; sourceTree = "<group>"; };
@@ -92,10 +85,6 @@
 			children = (
 				CE846C7716BAF13700020B85 /* AppDelegate.h */,
 				CE846C7816BAF13700020B85 /* AppDelegate.m */,
-				CE846C8016BAF13700020B85 /* ViewController.h */,
-				CE846C8116BAF13700020B85 /* ViewController.m */,
-				CE846C8316BAF13700020B85 /* ViewController_iPhone.xib */,
-				CE846C8616BAF13700020B85 /* ViewController_iPad.xib */,
 				CE846C8E16BAF5CF00020B85 /* HossViewController.h */,
 				CE846C8F16BAF5CF00020B85 /* HossViewController.m */,
 				CE846C9116BAF70600020B85 /* HossViewController.xib */,
@@ -173,8 +162,6 @@
 				CE846C7B16BAF13700020B85 /* Default.png in Resources */,
 				CE846C7D16BAF13700020B85 /* Default@2x.png in Resources */,
 				CE846C7F16BAF13700020B85 /* Default-568h@2x.png in Resources */,
-				CE846C8516BAF13700020B85 /* ViewController_iPhone.xib in Resources */,
-				CE846C8816BAF13700020B85 /* ViewController_iPad.xib in Resources */,
 				CE846C9216BAF70600020B85 /* HossViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,7 +175,6 @@
 			files = (
 				CE846C7516BAF13700020B85 /* main.m in Sources */,
 				CE846C7916BAF13700020B85 /* AppDelegate.m in Sources */,
-				CE846C8216BAF13700020B85 /* ViewController.m in Sources */,
 				CE846C9016BAF5CF00020B85 /* HossViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,22 +188,6 @@
 				CE846C7216BAF13700020B85 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		CE846C8316BAF13700020B85 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE846C8416BAF13700020B85 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		CE846C8616BAF13700020B85 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CE846C8716BAF13700020B85 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
